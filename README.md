@@ -4,6 +4,7 @@ A beginner-friendly machine learning project for teaching image classification w
 Modelled after our successful Deep Learning with Matlab Sesssion: https://github.com/andy8744/MATLAB_RockPaperScissors
 
 Lab tutorial 1: https://www.kaggle.com/code/andy8744/dogs-vs-cats-beginner-cnn-with-augmentation
+
 Lab tutorial 2: Follow the instructions below (laptop with webcam and python required!)
 
 
