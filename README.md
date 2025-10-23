@@ -1,6 +1,7 @@
 # Rock Paper Scissors - Machine Learning Workshop
 
-A beginner-friendly machine learning project for teaching image classification with deep learning. Includes webcam data collection, model training, and real-time inference with optional robot hand control.
+A beginner-friendly machine learning project for teaching image classification with deep learning. 
+Modelled after our successful Deep Learning with Matlab Sesssion: https://github.com/andy8744/MATLAB_RockPaperScissors
 
 ## 🎯 Project Overview
 
@@ -85,68 +86,6 @@ ml-with-python/
     └── null/
 ```
 
-## 🎓 For Workshop Instructors
-
-This project is designed for beginners with minimal ML experience:
-
-1. **Simple workflow**: Collect → Train → Test
-2. **Visual feedback**: All tools have GUI/visual output
-3. **Two approaches**: Compare simple CNN vs transfer learning
-4. **Hands-on**: Physical robot demo (optional)
-5. **Clean code**: Minimal complexity, well-commented
-
-## 🤖 Robot Hand Setup (Optional)
-
-If using the Arduino robot hand:
-
-1. Upload the Arduino sketch to your board
-2. Update `SERIAL_PORT` in `run_webcam_robot.py`
-3. Run the robot inference script
-
-Commands sent:
-- `r` = rock
-- `p` = paper
-- `s` = scissors
-- `d` = default/null position
-
-## 🔧 Configuration
-
-Key parameters you can adjust:
-
-**Data Collection:**
-- Image size: 224x224 (in collect script)
-- Categories: rock, paper, scissors, null
-
-**Training:**
-- Batch size: 8 (adjust based on memory)
-- Epochs: 20-50
-- Learning rate: 0.001
-- Train/validation split: 70/30
-
-**Inference:**
-- Confidence threshold: 45% (robot control)
-- Command cooldown: 30 frames (~1 second)
-
-## 📊 Expected Results
-
-- Simple CNN: ~80-90% accuracy with 100+ images per class
-- Transfer learning: ~90-95% accuracy with 50+ images per class
-
-## 🐛 Troubleshooting
-
-**Model won't load:**
-- Check that the model file exists
-- Try removing `safe_mode=False` if using newer TensorFlow
-
-**Low accuracy:**
-- Collect more diverse training images
-- Try transfer learning approach
-- Increase training epochs
-
-**Arduino not connecting:**
-- Check serial port path
-- Verify baud rate (9600)
-- Try unplugging/replugging USB
 
 ## 📝 License
 
@@ -154,5 +93,5 @@ MIT License - Feel free to use for educational purposes!
 
 ## 🙏 Acknowledgments
 
-Built for machine learning workshops and beginner education.
+Built for machine learning workshops and beginner education. Errm and thanks chatgpt :)
 
