@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Model files (too large for git)
+*.keras
+*.h5
+
+# Training artifacts
+*.pkl
+*.png
+
+# Data folders (user-specific)
+data/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
